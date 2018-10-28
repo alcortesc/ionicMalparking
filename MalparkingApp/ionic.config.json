@@ -1,0 +1,7 @@
+{
+  "name": "MalparkingApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

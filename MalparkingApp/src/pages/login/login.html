@@ -1,0 +1,34 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <ion-title>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Malparking &nbsp; &nbsp; &nbsp; &nbsp; <ion-icon name="bus"></ion-icon>   </ion-title> 
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list>
+        <ion-item>
+            <ion-label stacked>Correo electrónico</ion-label>
+            <ion-input type="email" autocorrect="off" autocapitalize="none" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                required></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label stacked>Contraseña</ion-label>
+            <ion-input type="password" name="password" required minlength="6"></ion-input>
+        </ion-item>
+
+        <div padding-left padding-right padding-top>
+            <button ion-button (click)= "iraIngresar()" >INGRESAR</button>
+        </div>
+    </ion-list>
+
+</ion-content>
